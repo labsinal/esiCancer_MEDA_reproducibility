@@ -139,4 +139,4 @@ ROWS = [('Figures', '1A, 1B, 1E', '1C, 1E', '1D, 1E', '2, 3 (3J, K: inherited fi
   'Values transcribed from BCAC Tables S11–S12 (bcac2021_tableS11_case_only.csv, '
   'bcac2021_tableS12_population_based.csv; fig1_revised_numbers.py).',
   'Per-run outputs (*_ancestralResults.csv); ph_benchmark.py, meda_decomposition.py, sim_age_trend_rr.py, '
-  'germline_analysis.py, germline_vs_input.py (code/ of the reproducibility package, https://github.com/labsinal/esiCancer_MEDA_reprodutibility).')]
+  'germline_analysis.py, germline_vs_input.py (code/ of the reproducibility package, https://github.com/labsinal/esiCancer_MEDA_reproducibility).')]

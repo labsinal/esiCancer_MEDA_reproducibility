@@ -256,7 +256,7 @@ def table_s3():
                    "(level = 100 / step; the 5-year step reaches 19 events per division at 92 years).",
                    "Figure S4: CTOR 0.01 arms are the Figure 3A runs at 3 and 10 events per division. Genome ×k divides each gene's chance of being hit by k.",
                    "Counts from output/conditions_occurrence_meda.csv (T = 92 y), output/germline/germline_summary.csv and output/turnover_results.txt.",
-                   "esiCancer Linux build (Minussi et al., 2019); increasing schedules with the modified version (https://github.com/labsinal/esiCancer_dynamic_events; esicancer/increasing_events_per_division.patch). Data and code: https://github.com/labsinal/esiCancer_MEDA_reprodutibility. "
+                   "esiCancer Linux build (Minussi et al., 2019); increasing schedules with the modified version (https://github.com/labsinal/esiCancer_dynamic_events; esicancer/increasing_events_per_division.patch). Data and code: https://github.com/labsinal/esiCancer_MEDA_reproducibility. "
                    "esiTable of each series checked against the gene list of its outputs."],
                   freeze_cols=2)
     for i in range(first, first + len(rows)):
