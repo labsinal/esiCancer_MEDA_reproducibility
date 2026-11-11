@@ -1,0 +1,7 @@
+Parameters
+Seed: 14
+Number of cells (started): 1000
+StdProbOfProliferate: 0.01
+StdProbOfDeath: 0.01
+Telomeres: 1000
+Mutations per div: 20

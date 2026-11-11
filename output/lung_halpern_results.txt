@@ -1,0 +1,28 @@
+=== Totals ===
+never    deaths=  382  person-years=2,621,559  rate/100k PY=14.57
+current  deaths= 2724  person-years=1,154,344  rate/100k PY=235.98
+Crude rate ratio current/never = 16.195   (manuscript Fig 1E rInc = 16.164)
+
+Age-adjusted RR (Poisson, common RR across age) = 21.14 [18.98, 23.56]
+LRT smoking x age interaction: chi2 = 3.86, df = 7, p = 0.796
+Main-effects model deviance = 3.86 on 7 df (goodness of fit p = 0.796)
+Mantel-Haenszel RR = 21.02
+
+=== Age-specific rates and rate ratios (exact Poisson CI for ratio via conditional binomial) ===
+  age  never_rate_100k  current_rate_100k    RR  RR_lo  RR_hi
+40-43             0.00              10.72   inf    NaN    NaN
+44-48             3.62              45.75 12.62   6.24  28.89
+49-53             4.69              82.24 17.53  11.04  29.34
+54-58             6.93             156.80 22.62  15.84  33.31
+59-63            13.07             271.97 20.81  15.97  27.56
+64-68            18.99             430.92 22.69  17.83  29.23
+69-73            31.23             643.01 20.59  16.45  26.02
+74-80            39.48             858.68 21.75  17.23  27.68
+
+=== Median age at lung cancer death (years), with parametric-bootstrap 95% CI ===
+a_normalised_rate    never=70.87 [70.02 71.7 ]  current=70.96 [70.56 71.36]  diff=+0.08 [-0.81  1.04]  rMEDA=1.001 [0.99 1.01]
+b_observed_deaths    never=68.53 [67.42 69.57]  current=64.88 [64.5  65.25]  diff=-3.65 [-4.77 -2.47]  rMEDA=0.947 [0.93 0.96]
+c_age_standardised   never=67.46 [66.35 68.65]  current=67.58 [67.17 68.01]  diff=+0.12 [-1.12  1.31]  rMEDA=1.002 [0.98 1.02]
+
+Note: the open top band (74-80) is closed at 81; the cohort has no follow-up beyond 80,
+so every median here is the median among deaths occurring at ages 40-80 within 6 years of follow-up.

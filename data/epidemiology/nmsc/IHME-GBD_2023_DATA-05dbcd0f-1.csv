@@ -1,0 +1,154 @@
+population_group_id,population_group_name,measure_id,measure_name,location_id,location_name,sex_id,sex_name,age_id,age_name,cause_id,cause_name,metric_id,metric_name,year,val,upper,lower
+1,All Population,1,Deaths,568,Vermont,3,Both,27,Age-standardized,462,Non-melanoma skin cancer,3,Rate,2023,0.8491921999284715,0.9846232152140688,0.7052180714265168
+1,All Population,1,Deaths,535,Idaho,3,Both,27,Age-standardized,462,Non-melanoma skin cancer,3,Rate,2023,0.9634508032482706,1.1078241112993672,0.8048396059937216
+1,All Population,1,Deaths,552,New Hampshire,3,Both,27,Age-standardized,462,Non-melanoma skin cancer,3,Rate,2023,0.8743689850636857,1.005108710720177,0.7271558364784848
+1,All Population,1,Deaths,570,Washington,3,Both,27,Age-standardized,462,Non-melanoma skin cancer,3,Rate,2023,0.8412609747781477,0.9650657007395255,0.6952972721680193
+1,All Population,1,Deaths,569,Virginia,3,Both,27,Age-standardized,462,Non-melanoma skin cancer,3,Rate,2023,0.9312628421495002,1.0553687547239516,0.7758189431369118
+1,All Population,1,Deaths,553,New Jersey,3,Both,27,Age-standardized,462,Non-melanoma skin cancer,3,Rate,2023,0.6661789281715781,0.7619040705191573,0.551814304132211
+1,All Population,1,Deaths,523,Alabama,3,Both,27,Age-standardized,462,Non-melanoma skin cancer,3,Rate,2023,0.969734710668211,1.108830259959833,0.8229992251988483
+1,All Population,1,Deaths,536,Illinois,3,Both,27,Age-standardized,462,Non-melanoma skin cancer,3,Rate,2023,0.7104206595335789,0.8024753393870723,0.6019774826750504
+1,All Population,1,Deaths,571,West Virginia,3,Both,27,Age-standardized,462,Non-melanoma skin cancer,3,Rate,2023,1.1771857032326065,1.3612232976721206,0.98883609249658
+1,All Population,1,Deaths,525,Arizona,3,Both,27,Age-standardized,462,Non-melanoma skin cancer,3,Rate,2023,1.023835441798137,1.1713344454531132,0.8445087402646027
+1,All Population,1,Deaths,537,Indiana,3,Both,27,Age-standardized,462,Non-melanoma skin cancer,3,Rate,2023,0.9574531956551483,1.0941227879176934,0.8098851703601423
+1,All Population,1,Deaths,524,Alaska,3,Both,27,Age-standardized,462,Non-melanoma skin cancer,3,Rate,2023,0.6555596479544432,0.7667552196091576,0.5529280761294083
+1,All Population,1,Deaths,554,New Mexico,3,Both,27,Age-standardized,462,Non-melanoma skin cancer,3,Rate,2023,0.962052221489016,1.1120233907961732,0.7950592393845358
+1,All Population,1,Deaths,572,Wisconsin,3,Both,27,Age-standardized,462,Non-melanoma skin cancer,3,Rate,2023,0.7441105264610516,0.859417698177286,0.6160002503888514
+1,All Population,1,Deaths,559,Oklahoma,3,Both,27,Age-standardized,462,Non-melanoma skin cancer,3,Rate,2023,1.3173543792806366,1.5125731361327686,1.1072256373483773
+1,All Population,1,Deaths,539,Kansas,3,Both,27,Age-standardized,462,Non-melanoma skin cancer,3,Rate,2023,1.0224473921347286,1.1773526435015023,0.8620714478108413
+1,All Population,1,Deaths,538,Iowa,3,Both,27,Age-standardized,462,Non-melanoma skin cancer,3,Rate,2023,0.8525761897998997,0.9767686573603973,0.70804320993201
+1,All Population,1,Deaths,526,Arkansas,3,Both,27,Age-standardized,462,Non-melanoma skin cancer,3,Rate,2023,1.0665009464564044,1.2215718461544558,0.899406099757047
+1,All Population,1,Deaths,540,Kentucky,3,Both,27,Age-standardized,462,Non-melanoma skin cancer,3,Rate,2023,1.1962804645943472,1.3577486021384955,1.0067370715761035
+1,All Population,1,Deaths,573,Wyoming,3,Both,27,Age-standardized,462,Non-melanoma skin cancer,3,Rate,2023,0.7626312639771929,0.8855533751289951,0.6320564171963255
+1,All Population,1,Deaths,555,New York,3,Both,27,Age-standardized,462,Non-melanoma skin cancer,3,Rate,2023,0.6254858437423022,0.6979286363667592,0.5325909099240612
+1,All Population,1,Deaths,556,North Carolina,3,Both,27,Age-standardized,462,Non-melanoma skin cancer,3,Rate,2023,1.0078089457652006,1.1384957626699304,0.8506402735902087
+1,All Population,1,Deaths,541,Louisiana,3,Both,27,Age-standardized,462,Non-melanoma skin cancer,3,Rate,2023,0.8867076376405927,1.0191447624503613,0.7428423313136876
+1,All Population,1,Deaths,557,North Dakota,3,Both,27,Age-standardized,462,Non-melanoma skin cancer,3,Rate,2023,0.6274620126107998,0.7304384298337571,0.5259848260089834
+1,All Population,1,Deaths,527,California,3,Both,27,Age-standardized,462,Non-melanoma skin cancer,3,Rate,2023,0.8084394886968398,0.8999039533760723,0.6971321279705485
+1,All Population,1,Deaths,560,Oregon,3,Both,27,Age-standardized,462,Non-melanoma skin cancer,3,Rate,2023,0.8473609680014235,0.9666490523852698,0.7064369062083362
+1,All Population,1,Deaths,542,Maine,3,Both,27,Age-standardized,462,Non-melanoma skin cancer,3,Rate,2023,0.9560829756463143,1.1022166037172758,0.8048309924987214
+1,All Population,1,Deaths,558,Ohio,3,Both,27,Age-standardized,462,Non-melanoma skin cancer,3,Rate,2023,0.8432703591192074,0.9361500364452785,0.7287603141791729
+1,All Population,1,Deaths,561,Pennsylvania,3,Both,27,Age-standardized,462,Non-melanoma skin cancer,3,Rate,2023,0.8081705968912871,0.9184506349476734,0.6924082637928285
+1,All Population,1,Deaths,543,Maryland,3,Both,27,Age-standardized,462,Non-melanoma skin cancer,3,Rate,2023,0.7357420971302474,0.8542259073738602,0.608824960177175
+1,All Population,1,Deaths,530,Delaware,3,Both,27,Age-standardized,462,Non-melanoma skin cancer,3,Rate,2023,1.0202016151905327,1.1810321432276352,0.8468483490707327
+1,All Population,1,Deaths,544,Massachusetts,3,Both,27,Age-standardized,462,Non-melanoma skin cancer,3,Rate,2023,0.8141223886953953,0.9297631543266222,0.678308028487778
+1,All Population,1,Deaths,562,Rhode Island,3,Both,27,Age-standardized,462,Non-melanoma skin cancer,3,Rate,2023,0.8549140484238651,0.9858291748537602,0.7064096887531889
+1,All Population,1,Deaths,545,Michigan,3,Both,27,Age-standardized,462,Non-melanoma skin cancer,3,Rate,2023,0.7469694844092727,0.8449808030054221,0.6279747039742325
+1,All Population,1,Deaths,531,District of Columbia,3,Both,27,Age-standardized,462,Non-melanoma skin cancer,3,Rate,2023,0.7564374279632342,0.8816655966287402,0.6298448598180203
+1,All Population,1,Deaths,547,Mississippi,3,Both,27,Age-standardized,462,Non-melanoma skin cancer,3,Rate,2023,0.9553113120132339,1.097288894551293,0.8041331259009027
+1,All Population,1,Deaths,546,Minnesota,3,Both,27,Age-standardized,462,Non-melanoma skin cancer,3,Rate,2023,0.7252745705153565,0.8327126086672869,0.5955318577264337
+1,All Population,1,Deaths,528,Colorado,3,Both,27,Age-standardized,462,Non-melanoma skin cancer,3,Rate,2023,0.8730676196682028,1.0088574060422604,0.7176868948529144
+1,All Population,1,Deaths,563,South Carolina,3,Both,27,Age-standardized,462,Non-melanoma skin cancer,3,Rate,2023,1.087888329488105,1.2487314431116656,0.9142179881859802
+1,All Population,1,Deaths,548,Missouri,3,Both,27,Age-standardized,462,Non-melanoma skin cancer,3,Rate,2023,0.9382306403276264,1.0748052262382215,0.7807561923160744
+1,All Population,1,Deaths,549,Montana,3,Both,27,Age-standardized,462,Non-melanoma skin cancer,3,Rate,2023,0.7617645798249116,0.8835705437589478,0.6317175010868825
+1,All Population,1,Deaths,529,Connecticut,3,Both,27,Age-standardized,462,Non-melanoma skin cancer,3,Rate,2023,0.7559825751252709,0.8710111404618744,0.6208011564921465
+1,All Population,1,Deaths,564,South Dakota,3,Both,27,Age-standardized,462,Non-melanoma skin cancer,3,Rate,2023,0.8448302750757802,0.9815010734004606,0.7014648737751644
+1,All Population,1,Deaths,534,Hawaii,3,Both,27,Age-standardized,462,Non-melanoma skin cancer,3,Rate,2023,0.667524596456499,0.7796743123802995,0.5453082824850621
+1,All Population,1,Deaths,565,Tennessee,3,Both,27,Age-standardized,462,Non-melanoma skin cancer,3,Rate,2023,1.3294270710370715,1.4965399854248156,1.1177883608648875
+1,All Population,1,Deaths,566,Texas,3,Both,27,Age-standardized,462,Non-melanoma skin cancer,3,Rate,2023,1.022716043691339,1.1318392486256952,0.8995066525448616
+1,All Population,1,Deaths,532,Florida,3,Both,27,Age-standardized,462,Non-melanoma skin cancer,3,Rate,2023,0.9362773794979727,1.029154329634691,0.8190405136048309
+1,All Population,1,Deaths,550,Nebraska,3,Both,27,Age-standardized,462,Non-melanoma skin cancer,3,Rate,2023,0.9432463743625357,1.0912402275101667,0.7878798057261107
+1,All Population,1,Deaths,533,Georgia,3,Both,27,Age-standardized,462,Non-melanoma skin cancer,3,Rate,2023,0.9128027304302809,1.039465123419048,0.7604566804792134
+1,All Population,1,Deaths,567,Utah,3,Both,27,Age-standardized,462,Non-melanoma skin cancer,3,Rate,2023,0.8237270401099773,0.9566962736292306,0.6882279604804286
+1,All Population,1,Deaths,551,Nevada,3,Both,27,Age-standardized,462,Non-melanoma skin cancer,3,Rate,2023,1.0595005368430817,1.2216080928765576,0.8864494756961718
+1,All Population,6,Incidence,526,Arkansas,3,Both,27,Age-standardized,462,Non-melanoma skin cancer,2,Percent,2023,0.0012806909259136,0.0014970323543476,0.0010966834876754
+1,All Population,6,Incidence,526,Arkansas,3,Both,27,Age-standardized,462,Non-melanoma skin cancer,3,Rate,2023,795.1769330222701,892.9220844336099,698.86524630606
+1,All Population,6,Incidence,553,New Jersey,3,Both,27,Age-standardized,462,Non-melanoma skin cancer,2,Percent,2023,0.0013050050371664,0.0015156820131433,0.0011116852460379
+1,All Population,6,Incidence,553,New Jersey,3,Both,27,Age-standardized,462,Non-melanoma skin cancer,3,Rate,2023,805.81268374866,908.25216692923,710.80417458637
+1,All Population,6,Incidence,540,Kentucky,3,Both,27,Age-standardized,462,Non-melanoma skin cancer,2,Percent,2023,0.0014537483094518,0.0017012452925967,0.001209825771038
+1,All Population,6,Incidence,540,Kentucky,3,Both,27,Age-standardized,462,Non-melanoma skin cancer,3,Rate,2023,922.59737368995,1031.78000545924,821.62344749493
+1,All Population,6,Incidence,527,California,3,Both,27,Age-standardized,462,Non-melanoma skin cancer,2,Percent,2023,0.001485270412402,0.0017091633954251,0.001290302105308
+1,All Population,6,Incidence,527,California,3,Both,27,Age-standardized,462,Non-melanoma skin cancer,3,Rate,2023,928.71797597965,1043.74288177615,821.4242476829301
+1,All Population,6,Incidence,554,New Mexico,3,Both,27,Age-standardized,462,Non-melanoma skin cancer,2,Percent,2023,0.0012377495053781,0.0014269383355063,0.0010754860649187
+1,All Population,6,Incidence,554,New Mexico,3,Both,27,Age-standardized,462,Non-melanoma skin cancer,3,Rate,2023,781.24529444329,879.3825147552,680.2483069959301
+1,All Population,6,Incidence,567,Utah,3,Both,27,Age-standardized,462,Non-melanoma skin cancer,2,Percent,2023,0.0016739518819552,0.0019250601417413,0.0014154729836681
+1,All Population,6,Incidence,567,Utah,3,Both,27,Age-standardized,462,Non-melanoma skin cancer,3,Rate,2023,993.7165822347001,1099.41003507892,877.7596559045701
+1,All Population,6,Incidence,541,Louisiana,3,Both,27,Age-standardized,462,Non-melanoma skin cancer,2,Percent,2023,0.0012010738141826,0.0013953688322301,0.0010242222856488
+1,All Population,6,Incidence,541,Louisiana,3,Both,27,Age-standardized,462,Non-melanoma skin cancer,3,Rate,2023,749.89047616769,840.1970257801299,653.0354853300801
+1,All Population,6,Incidence,546,Minnesota,3,Both,27,Age-standardized,462,Non-melanoma skin cancer,2,Percent,2023,0.0012361718282051,0.0014524412810483,0.0010582980914819
+1,All Population,6,Incidence,546,Minnesota,3,Both,27,Age-standardized,462,Non-melanoma skin cancer,3,Rate,2023,743.47840660922,838.65877218713,652.23542973495
+1,All Population,6,Incidence,531,District of Columbia,3,Both,27,Age-standardized,462,Non-melanoma skin cancer,2,Percent,2023,0.0011642380827407,0.0013773263485906,0.00096132468957
+1,All Population,6,Incidence,531,District of Columbia,3,Both,27,Age-standardized,462,Non-melanoma skin cancer,3,Rate,2023,738.5911550415,861.16829722747,635.51231814185
+1,All Population,6,Incidence,547,Mississippi,3,Both,27,Age-standardized,462,Non-melanoma skin cancer,2,Percent,2023,0.0012333370721185,0.0014465309547813,0.001035673011363
+1,All Population,6,Incidence,547,Mississippi,3,Both,27,Age-standardized,462,Non-melanoma skin cancer,3,Rate,2023,785.74380816923,881.14472686766,694.8015828244
+1,All Population,6,Incidence,555,New York,3,Both,27,Age-standardized,462,Non-melanoma skin cancer,2,Percent,2023,0.0011950141079596,0.0014024284705782,0.0010129151118235
+1,All Population,6,Incidence,555,New York,3,Both,27,Age-standardized,462,Non-melanoma skin cancer,3,Rate,2023,753.68226984662,849.2337853269299,656.42014603776
+1,All Population,6,Incidence,568,Vermont,3,Both,27,Age-standardized,462,Non-melanoma skin cancer,2,Percent,2023,0.0013533697310724,0.001570797639989,0.001131208043263
+1,All Population,6,Incidence,568,Vermont,3,Both,27,Age-standardized,462,Non-melanoma skin cancer,3,Rate,2023,824.4356666182,934.84645782024,717.97584130928
+1,All Population,6,Incidence,532,Florida,3,Both,27,Age-standardized,462,Non-melanoma skin cancer,2,Percent,2023,0.0018610882398593,0.0021441680190135,0.001586835734429
+1,All Population,6,Incidence,532,Florida,3,Both,27,Age-standardized,462,Non-melanoma skin cancer,3,Rate,2023,1127.1212443197599,1262.02031015203,992.83259460827
+1,All Population,6,Incidence,548,Missouri,3,Both,27,Age-standardized,462,Non-melanoma skin cancer,2,Percent,2023,0.0012824887932948,0.0014685830237308,0.0010759900589444
+1,All Population,6,Incidence,548,Missouri,3,Both,27,Age-standardized,462,Non-melanoma skin cancer,3,Rate,2023,796.6068438945799,892.00983539333,699.19221131814
+1,All Population,6,Incidence,569,Virginia,3,Both,27,Age-standardized,462,Non-melanoma skin cancer,2,Percent,2023,0.0014070023297043,0.0016630254708693,0.0011759963962007
+1,All Population,6,Incidence,569,Virginia,3,Both,27,Age-standardized,462,Non-melanoma skin cancer,3,Rate,2023,869.26662204753,979.3721206843501,746.7464055645099
+1,All Population,6,Incidence,533,Georgia,3,Both,27,Age-standardized,462,Non-melanoma skin cancer,2,Percent,2023,0.0014793799394072,0.0017127023581825,0.0012529904787395
+1,All Population,6,Incidence,533,Georgia,3,Both,27,Age-standardized,462,Non-melanoma skin cancer,3,Rate,2023,908.34200026434,1015.75032249001,799.9064629252799
+1,All Population,6,Incidence,560,Oregon,3,Both,27,Age-standardized,462,Non-melanoma skin cancer,2,Percent,2023,0.0014569405882721,0.0016748024684976,0.0012673153683286
+1,All Population,6,Incidence,560,Oregon,3,Both,27,Age-standardized,462,Non-melanoma skin cancer,3,Rate,2023,872.54622385923,985.7938187171501,764.7280870489101
+1,All Population,6,Incidence,534,Hawaii,3,Both,27,Age-standardized,462,Non-melanoma skin cancer,2,Percent,2023,0.0014652842933639,0.001715516742496,0.0012344653249692
+1,All Population,6,Incidence,534,Hawaii,3,Both,27,Age-standardized,462,Non-melanoma skin cancer,3,Rate,2023,879.8779767515899,985.2473313446001,764.6020081080001
+1,All Population,6,Incidence,561,Pennsylvania,3,Both,27,Age-standardized,462,Non-melanoma skin cancer,2,Percent,2023,0.0014064756676661,0.0016426311996428,0.0011930725227902
+1,All Population,6,Incidence,561,Pennsylvania,3,Both,27,Age-standardized,462,Non-melanoma skin cancer,3,Rate,2023,859.84617656645,962.4697096216199,758.7646341148101
+1,All Population,6,Incidence,535,Idaho,3,Both,27,Age-standardized,462,Non-melanoma skin cancer,2,Percent,2023,0.0014606975300791,0.0016868447544904,0.0012396584418597
+1,All Population,6,Incidence,535,Idaho,3,Both,27,Age-standardized,462,Non-melanoma skin cancer,3,Rate,2023,866.0354286618001,970.3274743991699,756.46034877431
+1,All Population,6,Incidence,524,Alaska,3,Both,27,Age-standardized,462,Non-melanoma skin cancer,2,Percent,2023,0.0012552098485704,0.0016153288637479,0.0009961447218632
+1,All Population,6,Incidence,524,Alaska,3,Both,27,Age-standardized,462,Non-melanoma skin cancer,3,Rate,2023,706.32427564445,818.3895269969099,591.66985463669
+1,All Population,6,Incidence,536,Illinois,3,Both,27,Age-standardized,462,Non-melanoma skin cancer,2,Percent,2023,0.001233523227186,0.0014185631497892,0.0010516762752648
+1,All Population,6,Incidence,536,Illinois,3,Both,27,Age-standardized,462,Non-melanoma skin cancer,3,Rate,2023,749.0862127491599,842.55600126945,656.42765486377
+1,All Population,6,Incidence,528,Colorado,3,Both,27,Age-standardized,462,Non-melanoma skin cancer,2,Percent,2023,0.0016176510531806,0.0018656307582682,0.0013991740755062
+1,All Population,6,Incidence,528,Colorado,3,Both,27,Age-standardized,462,Non-melanoma skin cancer,3,Rate,2023,955.24410789748,1062.92029354746,843.10592270041
+1,All Population,6,Incidence,542,Maine,3,Both,27,Age-standardized,462,Non-melanoma skin cancer,2,Percent,2023,0.0013686450022504,0.0015773955227041,0.0011801988232291
+1,All Population,6,Incidence,542,Maine,3,Both,27,Age-standardized,462,Non-melanoma skin cancer,3,Rate,2023,821.15947031305,928.4019206891601,708.51021367936
+1,All Population,6,Incidence,537,Indiana,3,Both,27,Age-standardized,462,Non-melanoma skin cancer,2,Percent,2023,0.001388636325581,0.0016347676872015,0.0011570927498193
+1,All Population,6,Incidence,537,Indiana,3,Both,27,Age-standardized,462,Non-melanoma skin cancer,3,Rate,2023,820.25395885349,919.6041772346799,715.34741540222
+1,All Population,6,Incidence,529,Connecticut,3,Both,27,Age-standardized,462,Non-melanoma skin cancer,2,Percent,2023,0.0013868872560888,0.0016544986919358,0.0011552996438979
+1,All Population,6,Incidence,529,Connecticut,3,Both,27,Age-standardized,462,Non-melanoma skin cancer,3,Rate,2023,841.2566211827699,970.5031958898301,740.90937716896
+1,All Population,6,Incidence,543,Maryland,3,Both,27,Age-standardized,462,Non-melanoma skin cancer,2,Percent,2023,0.0012473982826189,0.0014641644790532,0.0010600589402557
+1,All Population,6,Incidence,543,Maryland,3,Both,27,Age-standardized,462,Non-melanoma skin cancer,3,Rate,2023,778.28620933854,884.10980697198,681.06788460088
+1,All Population,6,Incidence,523,Alabama,3,Both,27,Age-standardized,462,Non-melanoma skin cancer,2,Percent,2023,0.0015023974078277,0.0017230379827147,0.0012732293759786
+1,All Population,6,Incidence,523,Alabama,3,Both,27,Age-standardized,462,Non-melanoma skin cancer,3,Rate,2023,943.36322808675,1052.15458315147,839.0748897041301
+1,All Population,6,Incidence,525,Arizona,3,Both,27,Age-standardized,462,Non-melanoma skin cancer,2,Percent,2023,0.0016397786677201,0.0019037288564484,0.0013942466159786
+1,All Population,6,Incidence,525,Arizona,3,Both,27,Age-standardized,462,Non-melanoma skin cancer,3,Rate,2023,1029.34320211655,1155.0255004575001,909.04705589486
+1,All Population,6,Incidence,562,Rhode Island,3,Both,27,Age-standardized,462,Non-melanoma skin cancer,2,Percent,2023,0.0013859244393183,0.0016256594570564,0.001138873503669
+1,All Population,6,Incidence,562,Rhode Island,3,Both,27,Age-standardized,462,Non-melanoma skin cancer,3,Rate,2023,879.13936897571,980.54460976053,768.35544492616
+1,All Population,6,Incidence,530,Delaware,3,Both,27,Age-standardized,462,Non-melanoma skin cancer,2,Percent,2023,0.0015209094403798,0.0017503914681294,0.0013177652323181
+1,All Population,6,Incidence,530,Delaware,3,Both,27,Age-standardized,462,Non-melanoma skin cancer,3,Rate,2023,926.04348497853,1041.01485110602,808.72466833151
+1,All Population,6,Incidence,570,Washington,3,Both,27,Age-standardized,462,Non-melanoma skin cancer,2,Percent,2023,0.0013130822003435,0.0015493937695503,0.001111898963604
+1,All Population,6,Incidence,570,Washington,3,Both,27,Age-standardized,462,Non-melanoma skin cancer,3,Rate,2023,770.4850662067199,862.1866761511599,668.08482517717
+1,All Population,6,Incidence,556,North Carolina,3,Both,27,Age-standardized,462,Non-melanoma skin cancer,2,Percent,2023,0.00151013634395,0.001744419109437,0.0012885535475221
+1,All Population,6,Incidence,556,North Carolina,3,Both,27,Age-standardized,462,Non-melanoma skin cancer,3,Rate,2023,924.53637317395,1046.1234555513101,816.13737647587
+1,All Population,6,Incidence,544,Massachusetts,3,Both,27,Age-standardized,462,Non-melanoma skin cancer,2,Percent,2023,0.0014872806513616,0.001732744960869,0.0012514143003514
+1,All Population,6,Incidence,544,Massachusetts,3,Both,27,Age-standardized,462,Non-melanoma skin cancer,3,Rate,2023,893.6495114486701,995.5957516802101,785.61807924355
+1,All Population,6,Incidence,563,South Carolina,3,Both,27,Age-standardized,462,Non-melanoma skin cancer,2,Percent,2023,0.001552875775813,0.0017843175328447,0.0013290978359315
+1,All Population,6,Incidence,563,South Carolina,3,Both,27,Age-standardized,462,Non-melanoma skin cancer,3,Rate,2023,983.8713542548301,1115.2744725780701,863.27282044314
+1,All Population,6,Incidence,549,Montana,3,Both,27,Age-standardized,462,Non-melanoma skin cancer,2,Percent,2023,0.0013655155852179,0.001600274489904,0.0011572124543317
+1,All Population,6,Incidence,549,Montana,3,Both,27,Age-standardized,462,Non-melanoma skin cancer,3,Rate,2023,801.70962537416,909.76053641455,695.70847381375
+1,All Population,6,Incidence,557,North Dakota,3,Both,27,Age-standardized,462,Non-melanoma skin cancer,2,Percent,2023,0.0012388406643378,0.0014525282388685,0.0010292115804596
+1,All Population,6,Incidence,557,North Dakota,3,Both,27,Age-standardized,462,Non-melanoma skin cancer,3,Rate,2023,727.83634472918,859.50366277169,607.9125096971601
+1,All Population,6,Incidence,564,South Dakota,3,Both,27,Age-standardized,462,Non-melanoma skin cancer,2,Percent,2023,0.0013497352540522,0.0015817290490505,0.0011330025843198
+1,All Population,6,Incidence,564,South Dakota,3,Both,27,Age-standardized,462,Non-melanoma skin cancer,3,Rate,2023,806.79248213276,922.2066140676201,701.7374030293
+1,All Population,6,Incidence,545,Michigan,3,Both,27,Age-standardized,462,Non-melanoma skin cancer,2,Percent,2023,0.0013398823249252,0.0015631770360332,0.0011437263021366
+1,All Population,6,Incidence,545,Michigan,3,Both,27,Age-standardized,462,Non-melanoma skin cancer,3,Rate,2023,832.66491229375,937.20743449822,728.76465126753
+1,All Population,6,Incidence,571,West Virginia,3,Both,27,Age-standardized,462,Non-melanoma skin cancer,2,Percent,2023,0.0013599814880087,0.0016063215141787,0.0011537902904541
+1,All Population,6,Incidence,571,West Virginia,3,Both,27,Age-standardized,462,Non-melanoma skin cancer,3,Rate,2023,837.74745675405,938.86166181072,744.89017722194
+1,All Population,6,Incidence,550,Nebraska,3,Both,27,Age-standardized,462,Non-melanoma skin cancer,2,Percent,2023,0.0012284953661673,0.0014838172816171,0.0009376109415355
+1,All Population,6,Incidence,550,Nebraska,3,Both,27,Age-standardized,462,Non-melanoma skin cancer,3,Rate,2023,760.4473618322,860.74818861055,659.2538692115901
+1,All Population,6,Incidence,558,Ohio,3,Both,27,Age-standardized,462,Non-melanoma skin cancer,2,Percent,2023,0.0012610388874584,0.0014596173003876,0.0010889412494937
+1,All Population,6,Incidence,558,Ohio,3,Both,27,Age-standardized,462,Non-melanoma skin cancer,3,Rate,2023,774.04394868749,875.94629755332,667.3524126012
+1,All Population,6,Incidence,565,Tennessee,3,Both,27,Age-standardized,462,Non-melanoma skin cancer,2,Percent,2023,0.001436238828574,0.0016380836056307,0.0012260070736956
+1,All Population,6,Incidence,565,Tennessee,3,Both,27,Age-standardized,462,Non-melanoma skin cancer,3,Rate,2023,902.0002685986401,999.1918229527901,796.4722742447999
+1,All Population,6,Incidence,572,Wisconsin,3,Both,27,Age-standardized,462,Non-melanoma skin cancer,2,Percent,2023,0.0012051347968044,0.0013828196033397,0.0010314482896827
+1,All Population,6,Incidence,572,Wisconsin,3,Both,27,Age-standardized,462,Non-melanoma skin cancer,3,Rate,2023,743.28583348459,843.86919650443,645.18305421172
+1,All Population,6,Incidence,559,Oklahoma,3,Both,27,Age-standardized,462,Non-melanoma skin cancer,2,Percent,2023,0.0013219333429337,0.0015672738451088,0.0011093607687588
+1,All Population,6,Incidence,559,Oklahoma,3,Both,27,Age-standardized,462,Non-melanoma skin cancer,3,Rate,2023,837.08009307769,948.00617910481,731.36299090278
+1,All Population,6,Incidence,551,Nevada,3,Both,27,Age-standardized,462,Non-melanoma skin cancer,2,Percent,2023,0.0013170623922769,0.001514506949246,0.0011214020035196
+1,All Population,6,Incidence,551,Nevada,3,Both,27,Age-standardized,462,Non-melanoma skin cancer,3,Rate,2023,817.80759207292,928.14008007501,718.93780633826
+1,All Population,6,Incidence,566,Texas,3,Both,27,Age-standardized,462,Non-melanoma skin cancer,2,Percent,2023,0.0013923707749808,0.001610185363708,0.001176718743637
+1,All Population,6,Incidence,566,Texas,3,Both,27,Age-standardized,462,Non-melanoma skin cancer,3,Rate,2023,854.80463045282,960.95827659763,750.74594983625
+1,All Population,6,Incidence,573,Wyoming,3,Both,27,Age-standardized,462,Non-melanoma skin cancer,2,Percent,2023,0.0013444914254609,0.0016045599956001,0.0011133115062377
+1,All Population,6,Incidence,573,Wyoming,3,Both,27,Age-standardized,462,Non-melanoma skin cancer,3,Rate,2023,832.73768208753,952.86182657523,718.98357680335
+1,All Population,6,Incidence,552,New Hampshire,3,Both,27,Age-standardized,462,Non-melanoma skin cancer,2,Percent,2023,0.0014919591615168,0.0017444102904713,0.0012550312254555
+1,All Population,6,Incidence,552,New Hampshire,3,Both,27,Age-standardized,462,Non-melanoma skin cancer,3,Rate,2023,877.69949466256,995.89777616136,774.92305399588
+1,All Population,6,Incidence,538,Iowa,3,Both,27,Age-standardized,462,Non-melanoma skin cancer,2,Percent,2023,0.0012588420473148,0.0014704083298947,0.0010746333720687
+1,All Population,6,Incidence,538,Iowa,3,Both,27,Age-standardized,462,Non-melanoma skin cancer,3,Rate,2023,761.83184695714,860.76730834132,672.79044810608
+1,All Population,6,Incidence,539,Kansas,3,Both,27,Age-standardized,462,Non-melanoma skin cancer,2,Percent,2023,0.0013249222691246,0.001546516353924,0.0011378778270896
+1,All Population,6,Incidence,539,Kansas,3,Both,27,Age-standardized,462,Non-melanoma skin cancer,3,Rate,2023,813.48630022752,916.34084355528,716.26150837057

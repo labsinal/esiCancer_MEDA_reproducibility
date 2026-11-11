@@ -1,0 +1,11 @@
+Basic,genome size,,GENES,EVENTS,PROBEVENT,DOMINANCE,,Effect,DIVFUNC,DIVRATE,,Effect,DEFUNC,DEATHRATE,,Effect,mutationFUNC,mutation,,Effect ,MAXDIVFUNC,MAXDIVRATE,,Effect,MEFUNC,MICROENVIRONMENT
+,750,,A,mutation,1,1,,,ADD,0.000015,,,ADD,-0.000015,,,ADD,0,,,ADD,0,,,MULT,1
+,,,B,mutation,1,1,,,ADD,0.000015,,,ADD,-0.000015,,,ADD,0,,,ADD,0,,,MULT,1
+,,,C,mutation,1,1,,,ADD,0.000015,,,ADD,-0.000015,,,ADD,0,,,ADD,0,,,MULT,1
+,,,D,mutation,1,1,,,ADD,0.000015,,,ADD,-0.000015,,,ADD,0,,,ADD,0,,,MULT,1
+,,,E,mutation,1,1,,,ADD,0.000015,,,ADD,-0.000015,,,ADD,0,,,ADD,0,,,MULT,1
+,,,F,mutation,1,1,,,ADD,0.000015,,,ADD,-0.000015,,,ADD,0,,,ADD,0,,,MULT,1
+,,,aging_1,mutation,0,1,,,MULT,0.9,,,MULT,1.1,,,ADD,0,,,ADD,0,,,MULT,1
+,,,aging_2,mutation,0,1,,,MULT,0.9,,,MULT,1.1,,,ADD,0,,,ADD,0,,,MULT,1
+,,,aging_3,mutation,0,1,,,MULT,0.9,,,MULT,1.1,,,ADD,0,,,ADD,0,,,MULT,1
+,,,aging_4,mutation,0,1,,,MULT,0.9,,,MULT,1.1,,,ADD,0,,,ADD,0,,,MULT,1

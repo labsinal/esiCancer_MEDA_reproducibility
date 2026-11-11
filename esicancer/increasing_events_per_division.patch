@@ -1,0 +1,47 @@
+--- esiCancer/cellsystem.cpp	2025-12-02 11:13:02.763934161 -0300
++++ esiCancer_fred/cellsystem.cpp	2026-06-12 13:36:24.755746705 -0300
+@@ -6,6 +6,7 @@
+ #include <QDebug>
+ #include "mutationmanual.h"
+ #include <QFileInfo>
++#include <cmath>
+ 
+ bool fileExists(QString path) {
+     QFileInfo check_file(path);
+@@ -217,6 +218,14 @@
+     }
+ }
+ 
++float mutation_rate(int gen){
++    float mut = 1;
++
++    int increment = 1;
++
++    return mut + increment * (gen / (522));
++}
++
+ //mitosisFirstCell only used in the case of asymmetric mitosis
+ Cell *CellSystem::addNewCell(Cell *father, bool hapenningAsymmetricMitosis, bool mitosisFirstCell){
+     unsigned int tmpMutatedPosition;
+@@ -233,14 +242,14 @@
+     float proliferationChild = father->getProbReproduction();
+     float deathChild = father->getProbDeath();
+     float telomeresChild = father->getTelomeres();
+-    float tmpMutationsPerRepChild = father->getMutationsPerRep();
+-    float tmpMutationsPerRepFather = father->getMutationsPerRep();
++    float tmpMutationsPerRepChild = /*father->getMutationsPerRep() */ mutation_rate(getGeneration());
++    float tmpMutationsPerRepFather = /*father->getMutationsPerRep() */ mutation_rate(getGeneration());
+     float tmpMicroEnvironment = 1;
+-//    if (generation>520){
+-//        qDebug()<<"Adding New Cell:  mutPerRep: "<<tmpMutationsPerRepFather<<"    mutations: "<<newMutations.size()<<"    Muts:";
+-//        for (int i=0;i<newMutations.size();i++)
+-//            qDebug()<<"   Mut "<<newMutations[i];
+-//    }
++    if (generation>520){
++        qDebug()<<"Adding New Cell:  mutPerRep: "<<tmpMutationsPerRepFather<<"    mutations: "<<newMutations.size()<<"    Muts:";
++        for (int i=0;i<newMutations.size();i++)
++            qDebug()<<"   Mut "<<newMutations[i];
++    }
+     for(unsigned int i=0; i<tmpMutationsPerRepFather; i++){
+         totalNumberOfEvents++;
+         tmpCurGenNumberOfEvents++;

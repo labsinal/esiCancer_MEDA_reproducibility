@@ -1,0 +1,14 @@
+runs per group: {'base': 3000, 'germ': 3000, 'input': 1000}
+=== 1. Age trend of the hazard ratio (per decade), joint model, reference = non-carriers 3 ev/div ===
+  germline first hit       0.738 (0.651-0.836)
+  more input (4 ev/div)    0.832 (0.716-0.966)
+  ratio germline / input   0.887 (0.795-0.989), z = -2.17, p = 0.030
+
+=== 2. MEDA residual (observed - PH-expected), years; joint bootstrap ===
+  germline first hit       -2.29 (-3.45 to -1.31)   P(boot >= 0) = 0.000
+  more input               -1.25 (-2.62 to +0.12)   P(boot >= 0) = 0.041
+  difference germ - input  -1.04 (-2.23 to +0.18)   P(boot >= 0) = 0.043
+
+=== 3. Similar occurrence, different mechanism ===
+  occurrence: germline 0.671 vs input 0.614
+  MEDA: germline 79.62 y vs input 81.24 y; difference -1.62 (-2.62 to -0.40)

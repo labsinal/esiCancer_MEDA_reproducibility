@@ -1,0 +1,50 @@
+{
+  "gbd_age_specific_file": "IHME_data_USA_states.csv",
+  "gbd_age_standardised_file": "IHME-GBD_2023_DATA-05dbcd0f-1.csv",
+  "gbd_cause": [
+    "Non-melanoma skin cancer"
+  ],
+  "gbd_year": 2023,
+  "sexes_combined": [
+    "Female",
+    "Male"
+  ],
+  "age_classes": [
+    "<1 year",
+    "2-4 years",
+    "5-14 years",
+    "15-19 years",
+    "20-24 years",
+    "25-29 years",
+    "30-34 years",
+    "35-39 years",
+    "40-44 years",
+    "45-49 years",
+    "50-54 years",
+    "55-59 years",
+    "60-64 years",
+    "65-69 years",
+    "70-74 years",
+    "75-84 years",
+    "85-89 years",
+    "90-94 years",
+    "95+ years"
+  ],
+  "open_ended_upper_bound": 100,
+  "uv_file": "uv-county.xlsx",
+  "uv_sheet": "UV_County_2000-2024",
+  "uv_column": "UV_ Wh/m\u00b2 (2020_2024)",
+  "uv_aggregation": "unweighted mean of county values per state",
+  "n_locations": 49,
+  "includes_DC": true,
+  "uv_thresholds_Wh_m2": {
+    "low_below": 4000,
+    "high_above": 5000
+  },
+  "n_high_uv": 8,
+  "n_low_uv": 11,
+  "bootstrap": {
+    "n": 10000,
+    "seed": 42
+  }
+}

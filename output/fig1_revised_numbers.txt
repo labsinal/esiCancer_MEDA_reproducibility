@@ -1,0 +1,8 @@
+A {'n': 49, 'R2': np.float64(0.209), 'p': np.float64(0.001), 'slope_per_1000': np.float64(74.952), 'slope_lo': np.float64(32.153), 'slope_hi': np.float64(117.75), 'min': np.float64(727.836), 'max': np.float64(1127.121)}
+B {'n': 49, 'R2': np.float64(0.004), 'p': np.float64(0.682), 'slope_per_1000': np.float64(0.065), 'slope_lo': np.float64(-0.251), 'slope_hi': np.float64(0.38), 'min': np.float64(70.528), 'max': np.float64(73.552)}
+E_NMSC {'n_high': 8, 'n_low': 11, 'RR': np.float64(1.164), 'RR_lo': np.float64(1.061), 'RR_hi': np.float64(1.271), 'meda_low': np.float64(71.635), 'meda_high': np.float64(71.744), 'dmeda': np.float64(0.109), 'dmeda_lo': np.float64(-0.611), 'dmeda_hi': np.float64(0.864), 'trend': 1.045}
+C {'std_rate_never': np.float64(13.558), 'std_rate_current': np.float64(286.308), 'median_never': np.float64(67.461), 'median_current': np.float64(67.581)}
+E_lung {'RR': 21.14, 'RR_lo': 18.98, 'RR_hi': 23.56, 'meda_low': np.float64(67.461), 'meda_high': np.float64(67.581), 'dmeda': np.float64(0.121), 'dmeda_lo': np.float64(-1.176), 'dmeda_hi': np.float64(1.314), 'trend': np.float64(1.103), 'trend_lo': np.float64(0.976), 'trend_hi': np.float64(1.248), 'interaction_p': 0.796}
+D {}
+E_BRCA1 {'OR_young': 46.3, 'OR_old': 2.33, 'meda_high': np.float64(44.489), 'meda_high_lo': np.float64(43.455), 'meda_high_hi': np.float64(45.508), 'case_only_or': 0.941, 'case_only_lo': 0.94, 'case_only_hi': 0.95, 'trend': 0.544, 'trend_lo': 0.539, 'trend_hi': 0.599}
+E_BRCA2 {'OR_young': 18.7, 'OR_old': 2.81, 'meda_high': np.float64(49.432), 'meda_high_lo': np.float64(48.363), 'meda_high_hi': np.float64(50.608), 'case_only_or': 0.968, 'case_only_lo': 0.96, 'case_only_hi': 0.97, 'trend': 0.722, 'trend_lo': 0.665, 'trend_hi': 0.737}

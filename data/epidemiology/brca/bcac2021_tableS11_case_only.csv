@@ -1,0 +1,3 @@
+gene,case_only_OR_per_year_of_age,lo,hi
+BRCA1,0.941,0.94,0.95
+BRCA2,0.968,0.96,0.97

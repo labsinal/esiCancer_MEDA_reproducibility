@@ -1,0 +1,21 @@
+                                            example                    source  RR_at_60  RR_lo  RR_hi  trend_per_decade  trend_lo  trend_hi  check_trend_from_S12  check_lo  check_hi
+        Lung cancer death, current vs never smokers     Halpern 1993, Table 4    20.208 17.593 23.212             1.103     0.976     1.248                   NaN       NaN       NaN
+  Breast cancer, BRCA1 PTV carriers vs non-carriers BCAC 2021, Tables S11/S12     4.120    NaN    NaN             0.544     0.539     0.599                 0.397     0.349     0.451
+  Breast cancer, BRCA2 PTV carriers vs non-carriers BCAC 2021, Tables S11/S12     3.918    NaN    NaN             0.722     0.665     0.737                 0.566     0.495     0.647
+NMSC incidence, high- vs low-UV states (ecological)         GBD 2023 + NCI UV     1.156    NaN    NaN             1.045       NaN       NaN                   NaN       NaN       NaN
+
+NMSC age-specific RR (high/low UV):
+  lo    hi    RR
+30.0  35.0 1.068
+35.0  40.0 1.069
+40.0  45.0 1.074
+45.0  50.0 1.077
+50.0  55.0 1.108
+55.0  60.0 1.139
+60.0  65.0 1.178
+65.0  70.0 1.203
+70.0  75.0 1.219
+75.0  85.0 1.253
+85.0  90.0 1.324
+90.0  95.0 1.345
+95.0 101.0 1.364

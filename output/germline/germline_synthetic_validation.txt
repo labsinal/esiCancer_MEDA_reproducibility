@@ -1,0 +1,4 @@
+ contrast                     level  events0  events1    p0    p1  meda0  meda1  obs_shift  ph_expected_shift  residual  res_lo  res_hi  HR_at_60  trend  trend_lo  trend_hi
+synthetic SYNTH_multistage_k5_vs_k4       47      264 0.047 0.264 82.932 75.218     -7.714             -1.786    -5.928 -10.716  -2.212    10.846  0.722     0.534     0.975
+synthetic       SYNTH_PH_control_x7       47      299 0.047 0.299 82.932 78.975     -3.957             -1.847    -2.110  -6.713   1.117     9.809  0.863     0.650     1.146
+saved /home/frederico/Desktop/esiCancer/repo/output/germline/germline_SYNTHETIC_validation.csv

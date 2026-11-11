@@ -1,0 +1,5 @@
+runs per group: {'003_carrier': 3000, '003_noncarrier': 3000, '004_noncarrier': 1000}
+           contrast            level  events0  events1    p0    p1  meda0  meda1  obs_shift  ph_expected_shift  residual  res_lo  res_hi  HR_at_60  trend  trend_lo  trend_hi
+ germline first hit     germline_003      646     2014 0.215 0.671 84.297 79.618     -4.679             -2.391    -2.288  -3.524  -1.258     8.384  0.736     0.649     0.835
+more mutation input input_003_to_004      646      614 0.215 0.614 84.297 81.238     -3.059             -1.810    -1.249  -2.647   0.154     5.700  0.835     0.718     0.969
+saved /home/frederico/Desktop/esiCancer/repo/output/germline/germline_summary.csv
