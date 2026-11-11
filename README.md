@@ -58,7 +58,7 @@ Runtime about 10 minutes on a laptop. Tables and text results go to `output/`, f
 
 ## esiCancer version
 
-Simulations used the esiCancer Linux build (Minussi et al., 2019). The increasing schedules of events per division used a modified build; the change to `cellsystem.cpp` is in `esicancer/increasing_events_per_division.patch`, and `esicancer/CONFIGURATIONS.md` describes the settings of every condition and the model rules checked in the source code.
+Simulations used the esiCancer Linux build (Minussi et al., 2019). The increasing schedules of events per division used a modified build; its source is at https://github.com/labsinal/esiCancer_dynamic_events, and the change to `cellsystem.cpp` is in `esicancer/increasing_events_per_division.patch`, and `esicancer/CONFIGURATIONS.md` describes the settings of every condition and the model rules checked in the source code.
 
 ## Sources of the epidemiological data
 

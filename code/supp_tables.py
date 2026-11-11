@@ -50,15 +50,15 @@ def table_s1():
     header = ["Group", "Parameter (esiCancer field)", "Definition", "Value(s) used", "Varied in", "Source / note"]
     rows = [
         ("Population", "Initial number of cells (Number of Cells)", "Cells at generation 0; all identical, no event.",
-         "1,000", "–", "Default of esiCancer (ref. 17)."),
+         "1,000", "–", "Default of esiCancer (Minussi et al., 2019)."),
         ("Population", "Probability of division (Prob of Division)", "Probability that a cell divides in one generation.",
          "0.01", "0.02 (Figure 3G; Figure S4), 0.2 (Figure 3H; Figure S4)", "Set equal to the probability of death (CTOR)."),
         ("Population", "Probability of death (Prob of Death)", "Probability that a cell dies in one generation.",
          "0.01", "As probability of division", "Equal to the probability of division, so the expected population is constant."),
         ("Population", "Cell turnover rate (CTOR)", "Probability of division = probability of death.",
-         "0.01", "0.02, 0.2", "Ref. 21. Division = death = CTOR in every condition; the outputs give about 0.01, 0.02 and 0.2 divisions per cell per generation."),
+         "0.01", "0.02, 0.2", "dos Santos Oliveira et al. (2024). Division = death = CTOR in every condition; the outputs give about 0.01, 0.02 and 0.2 divisions per cell per generation."),
         ("Population", "Maximum divisions per cell (Max Divisions)", "Divisions after which a cell stops dividing (senescence).",
-         "1,000", "10,000 in the matched-turnover runs (Figure S4)", "Ref. 21. At CTOR 0.01 a lineage divides about 48 times in 92 years, so the limit never binds."),
+         "1,000", "10,000 in the matched-turnover runs (Figure S4)", "dos Santos Oliveira et al. (2024). At CTOR 0.01 a lineage divides about 48 times in 92 years, so the limit never binds."),
         ("Mutation input", "Events per division (Events Per Division)", "Number of events (mutations) drawn at each division.",
          "1 (default)", "Constant 1, 3, 5, 10 (Figure 3A, D); 2, 3, 4, 6 (six-gene model, Figure 3C, J); increasing with age (Figure 3B, E, G, H)",
          "Integer values only."),
@@ -69,15 +69,15 @@ def table_s1():
          "Function mutation_rate() in cellsystem.cpp (esicancer/increasing_events_per_division.patch)."),
         ("Mutation input", "Genome size (esiTable)", "Denominator of the hit probability of every gene.",
          "16,647,721 (sum of gene lengths, ESCC table); 750 (six-gene table)", "×2 and ×20 in the matched-turnover runs (Figure S4)",
-         "Refs. 19, 20. Multiplying the genome size by k divides each gene's chance of being hit by k."),
+         "Carlson (2017a, 2017b). Multiplying the genome size by k divides each gene's chance of being hit by k."),
         ("Mutation input", "Oncogenome size", "Sum of the event weights (PROBEVENT) of the driver records.", "58", "–", "Derived from Table S2."),
         ("Gene records", "PROBEVENT", "Relative event weight; a gene's chance of being hit by one event is its weight ÷ genome size.",
          "1 for driver and essential records; 5–45 for passenger records", "–", "Passenger weights reflect mutational target size (e.g. TTN 45, MUC16 17)."),
         ("Gene records", "DOMINANCE", "Fraction of the effect expressed when only one allele carries the event.",
-         "0–1 per record", "–", "20/20 rule (ref. 3). A hit on one allele adds effect × dominance; a hit on the second allele "
+         "0–1 per record", "–", "20/20 rule (Vogelstein et al., 2013). A hit on one allele adds effect × dominance; a hit on the second allele "
          "adds effect × (1 − dominance), so both alleles together give the full effect."),
         ("Gene records", "DIVFUNC, DIVRATE", "Change of the probability of division when the event occurs (ADD = added, MULT = multiplied).",
-         "Drivers: +f × 0.1; essential genes: −f × 0.1; passengers: 0 (f = alteration frequency in tumours)", "–", "Frequencies from cBioPortal ESCC datasets."),
+         "Drivers: +f × 0.1; essential genes: −f × 0.1; passengers: 0 (f = alteration frequency in tumors)", "–", "Frequencies from cBioPortal ESCC datasets."),
         ("Gene records", "DEFUNC, DEATHRATE", "Change of the probability of death when the event occurs.",
          "Drivers: −f × 0.1; essential genes: +f × 0.1; passengers: 0", "–", "As DIVRATE, with opposite sign."),
         ("Gene records", "mutationFUNC, mutation", "Change of the events per division of the cell (mutation-rate modifier).",
@@ -85,11 +85,11 @@ def table_s1():
          "Not active: esiCancer reads this field only from columns named 'mutfunc' and 'mut', and the esiTable names them "
          "'mutationFUNC' and 'mutation', so no record changed the events per division in any simulation."),
         ("Gene records", "MAXDIVFUNC, MAXDIVRATE", "Change of the maximum number of divisions.", "+100 for TERT; 0 otherwise", "–", "Telomere maintenance."),
-        ("Gene records", "MEFUNC, MICROENVIRONMENT", "Effect on the tumour environment.", "MULT 1 (no effect)", "–", "Tumour environment switched off."),
+        ("Gene records", "MEFUNC, MICROENVIRONMENT", "Effect on the tumor environment.", "MULT 1 (no effect)", "–", "Tumor environment switched off."),
         ("Bounds", "Probability limits", "What happens when an update would take a probability below 0 or above 1.",
          "Upper: probabilities of division and death are capped at 1, and when their sum exceeds 1 both are rescaled so that "
          "it equals 1. Lower: no clipping; a negative value acts as 0 (the cell never divides, or never dies), and later "
-         "effects are added to the stored negative value.", "–", "Requested by the reviewer (comment 8)."),
+         "effects are added to the stored negative value.", "–", "From the esiCancer source code (CellSystem::addNewCell, Cell::reproduce)."),
         ("Interactions", "Interaction table (DIVMOD, DEMOD, MAXDIVMOD)", "Modifiers applied when both genes of a pair carry an event.",
          "Six-gene model: every ordered pair, DIVMOD 3, DEMOD 1/3, MAXDIVMOD 1,000; none in the other models", "Figure 3C, J, K",
          "For each partner event already present in the cell, the effect of the new event on division is multiplied by DIVMOD "
@@ -106,13 +106,13 @@ def table_s1():
         ("Time and stop", "Number of cells (stop)", "esiTumor threshold.", "10,000 cells (10× the initial population)", "–",
          "Populations that crossed it always continued to grow."),
         ("Time and stop", "Seeds", "Random seeds; one run (individual) per seed.", "1–1,000", "1–3,000 per arm in the inherited first-hit experiment", ""),
-        ("Other", "Tumour environment; asymmetric mitosis", "Optional modules of esiCancer.", "Off", "–", ""),
+        ("Other", "Tumor environment; asymmetric mitosis", "Optional modules of esiCancer.", "Off", "–", ""),
     ]
     wb = Workbook(); ws = wb.active; ws.title = "Table S1"
     sheet(ws, "Supplementary Table S1. Parameters of esiCancer and the values used in this study",
           "Field names as in the esiCancer interface and esiTable.",
           header, rows, [14, 30, 42, 40, 34, 44],
-          ["CTOR, cell turnover rate. f, alteration frequency of the gene in ESCC tumours."], freeze_cols=2)
+          ["CTOR, cell turnover rate. f, alteration frequency of the gene in ESCC tumors."], freeze_cols=2)
     wb.save(TAB / "TableS1_parameters.xlsx")
 
 
@@ -142,7 +142,7 @@ def table_s2():
     wb = Workbook(); ws = wb.active; ws.title = "ESCC esiTable"
     n = esitable_sheet(ws, ESI / "esiTable_escc.csv",
                        "Supplementary Table S2. esiTables used in the simulations",
-                       "ESCC table (Figure 3A, B, D–H; Figure S4): 179 gene-event records (173 genes) plus 4 aging records.")
+                       "ESCC table (Figure 2B; Figure 3A, B, D–H; Figure S4): 179 gene-event records (173 genes) plus 4 aging records.")
     first, last = 5, 4 + n
     ws2 = wb.create_sheet("Six-gene esiTable")
     esitable_sheet(ws2, ESI / "esiTable_six_genes.csv", "Six-gene esiTable (multistage model)",
@@ -188,7 +188,7 @@ def table_s2():
         ("mutationFUNC, mutation", "Intended change of the events per division of the cell. Not read by esiCancer, which "
          "expects the column names 'mutfunc' and 'mut'; it had no effect in any simulation."),
         ("MAXDIVFUNC, MAXDIVRATE", "Change of the maximum number of divisions (TERT +100)."),
-        ("MEFUNC, MICROENVIRONMENT", "Effect on the tumour environment; not used (MULT 1)."),
+        ("MEFUNC, MICROENVIRONMENT", "Effect on the tumor environment; not used (MULT 1)."),
         ("Gene_Before, Gene_After", "Ordered gene pair of the interaction table."),
         ("DIVMOD, DEMOD, MAXDIVMOD", "Modifiers applied when both genes of the pair carry an event."),
     ]
@@ -244,19 +244,19 @@ def table_s3():
          "60, 70, 80, 90 y", "none", 0.01, 1000, "1–14", 14, 6, 6, None, None, None],
     ]
     header = ["Figure", "Condition (file prefix)", "esiTable", "Genome size", "Interaction table", "Events per division",
-              "Aging events", "Other manual events", "CTOR", "Max divisions", "Seeds", "Runs", "Tumours by 92 y",
+              "Aging events", "Other manual events", "CTOR", "Max divisions", "Seeds", "Runs", "Tumors by 92 y",
               "Extinctions by 92 y", "Neither by 92 y (censored)", "Cumulative occurrence by 92 y", "MEDA (years)"]
     wb = Workbook(); ws = wb.active; ws.title = "Table S3"
     first = sheet(ws, "Supplementary Table S3. Configuration and outcome of every simulated condition",
                   "Common settings: 1,000 initial cells; probability of division = probability of death = CTOR; stop at "
-                  "4,800 generations (92 years) or 10,000 cells; tumour environment and asymmetric mitosis off.",
+                  "4,800 generations (92 years) or 10,000 cells; tumor environment and asymmetric mitosis off.",
                   header, rows, [11, 30, 18, 12, 11, 22, 15, 20, 7, 9, 9, 7, 9, 10, 11, 12, 9],
                   ["CTOR, cell turnover rate. MEDA, median age at detection among runs with an esiTumor (Data Analysis).",
                    "Increasing schedule: events per division = 1 + floor(age / step); levels 5, 10, 14, 20 correspond to steps of 20, 10, 7 and 5 years "
                    "(level = 100 / step; the 5-year step reaches 19 events per division at 92 years).",
                    "Figure S4: CTOR 0.01 arms are the Figure 3A runs at 3 and 10 events per division. Genome ×k divides each gene's chance of being hit by k.",
                    "Counts from output/conditions_occurrence_meda.csv (T = 92 y), output/germline/germline_summary.csv and output/turnover_results.txt.",
-                   "esiCancer Linux build (ref. 17); increasing schedules with the modification in esicancer/increasing_events_per_division.patch. "
+                   "esiCancer Linux build (Minussi et al., 2019); increasing schedules with the modified version (https://github.com/labsinal/esiCancer_dynamic_events; esicancer/increasing_events_per_division.patch). Data and code: https://github.com/labsinal/esiCancer_MEDA_reprodutibility. "
                    "esiTable of each series checked against the gene list of its outputs."],
                   freeze_cols=2)
     for i in range(first, first + len(rows)):
@@ -274,7 +274,7 @@ def table_s4():
     rows = [list(r) for r in v4.ROWS]
     rows[0][4] = "2, 3 (3J, K: inherited first hit); S2–S4"
     sheet(ws, "Supplementary Table S4. Endpoints, denominators and calculations for the epidemiological examples and the simulations",
-          "Answers reviewer comment 1: event definition, population at risk, denominator, observation period, age range and standardisation for every dataset.",
+          "Event definition, population at risk, denominator, observation period, age range and standardization for every dataset.",
           header, rows, [22, 45, 45, 45, 45],
           ["BCAC, Breast Cancer Association Consortium; CTOR, cell turnover rate; GBD, Global Burden of Disease; MEDA, median age at detection; "
            "NMSC, non-melanoma skin cancer; PH, proportional hazards; PTV, protein-truncating variant."])

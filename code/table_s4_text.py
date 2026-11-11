@@ -9,7 +9,7 @@ COLS = ['',
 ROWS = [('Figures', '1A, 1B, 1E', '1C, 1E', '1D, 1E', '2, 3 (3J, K: inherited first hit); S2–S5'),
  ('Data source',
   'Global Burden of Disease Study 2023 results (IHME): cause "Non-melanoma skin cancer", measure incidence, '
-  'metrics number and rate by age and sex, and age-standardised rate (both sexes), year 2023. NCI '
+  'metrics number and rate by age and sex, and age-standardized rate (both sexes), year 2023. NCI '
   'county-level UV exposure dataset (column 2020–2024).',
   'Halpern MT, Gillespie BW, Warner KE (1993) J Natl Cancer Inst 85:457–464, Appendix Table 4 (American '
   'Cancer Society Cancer Prevention Study II): published aggregate person-years and lung cancer deaths by '
@@ -17,7 +17,7 @@ ROWS = [('Figures', '1A, 1B, 1E', '1C, 1E', '1D, 1E', '2, 3 (3J, K: inherited fi
   'Breast Cancer Association Consortium (2021) N Engl J Med 384:428–439, Supplementary Appendix: Table S12 '
   '(carrier cases and controls and odds ratios by age group) and Table S11 (case-only odds ratio per year of '
   'age). Population-based studies only. Published aggregate values; no individual-level data.',
-  'Simulated with esiCancer (ref. 17); time-varying event schedules (Figure 3B, E, G, H) with a modified '
+  'Simulated with esiCancer (Minussi et al., 2019); time-varying event schedules (Figure 3B, E, G, H) with a modified '
   'version of esiCancer (esicancer/increasing_events_per_division.patch). 1,000 runs (seeds 1–1000) per condition in Figure 3A–H; 3,000 '
   'runs per arm in the inherited first-hit experiment. Configuration of every condition in Table S3.'),
  ('Study design',
@@ -40,18 +40,18 @@ ROWS = [('Figures', '1A, 1B, 1E', '1C, 1E', '1D, 1E', '2, 3 (3J, K: inherited fi
   'Incident non-melanoma skin cancer (GBD cause "Non-melanoma skin cancer"), both sexes combined.',
   'Death from cancer of the trachea, bronchus or lung (ICD-9). Mortality endpoint, not diagnosis.',
   'Breast cancer case status (cases vs unaffected controls); age at diagnosis in four groups.',
-  'Tumour (esiTumor): cell population reaches ≥10× its initial size (≥10,000 cells from 1,000). Other fates: '
+  'Tumor (esiTumor): cell population reaches ≥10× its initial size (≥10,000 cells from 1,000). Other fates: '
   'extinction of the whole cell population (competing event) or neither by the end of the simulation '
   '(censored).'),
  ('Risk measure',
-  'Age-standardised incidence rate, cases per 100,000 population (GBD 2023, both sexes; y-axis of Figure '
+  'Age-standardized incidence rate, cases per 100,000 population (GBD 2023, both sexes; y-axis of Figure '
   '1A). Exposure: UV, mean of county values 2020–2024 (Wh/m²), unweighted per state.',
   'Age-specific lung cancer death rate (deaths / person-years) and rate ratio current ÷ never: age-adjusted '
   '21.1 (95% CI 19.0–23.6), Poisson model with log person-years offset; age-specific ratios 12.6–22.7.',
   'Odds ratio of carrier cases in each age group vs all controls (BCAC Table S12), interpreted as the '
   'incidence rate ratio vs non-carriers of the same age: BRCA1 46.3 (<40 y), 14.2, 6.52, 2.33 (≥60 y); BRCA2 '
   '18.7, 7.85, 5.14, 2.81.',
-  'Cumulative occurrence by T = 92 y: proportion of runs reaching the tumour threshold, with Wilson 95% CI.'),
+  'Cumulative occurrence by T = 92 y: proportion of runs reaching the tumor threshold, with Wilson 95% CI.'),
  ('Population at risk',
   'Resident population of each location, both sexes, all ages.',
   'Aged 40–80; excluded for incomplete data or age outside 40–80. Smoking status recorded at baseline only.',
@@ -60,7 +60,7 @@ ROWS = [('Figures', '1A, 1B, 1E', '1C, 1E', '1D, 1E', '2, 3 (3J, K: inherited fi
   'and 0.2 in Figure 3G, H); maximum 1,000 divisions per cell; events per division as given for each '
   'condition (Table S3).'),
  ('Denominator',
-  'State population (modelled GBD estimate). For the age-specific data, population implied as Number ÷ Rate '
+  'State population (modeled GBD estimate). For the age-specific data, population implied as Number ÷ Rate '
   '× 100,000.',
   'Person-years of exposure (published).',
   'None (case–control design). Odds ratios compare the frequency of carriers among cases and among controls '
@@ -78,9 +78,9 @@ ROWS = [('Figures', '1A, 1B, 1E', '1C, 1E', '1D, 1E', '2, 3 (3J, K: inherited fi
   '40–43, 44–48, 49–53, 54–58, 59–63, 64–68, 69–73, 74–80 (top band closed at 81 y for interpolation).',
   '<40, 40–49, 50–59, ≥60 (four groups; the first and last are open-ended).',
   '0–92 simulated years; 10-year bands for the hazard-ratio model.'),
- ('Standardisation',
-  'Incidence is age-standardised (GBD standard population). Median age of cases (Figure 1B) is not '
-  "standardised and depends on each state's age structure; the rate-profile median is free of age structure.",
+ ('Standardization',
+  'Incidence is age-standardized (GBD standard population). Median age of cases (Figure 1B) is not '
+  "standardized and depends on each state's age structure; the rate-profile median is free of age structure.",
   'Rate ratio age-adjusted by Poisson regression. Distribution of ages at death compared at a common age '
   "structure: each group's age-specific death rates applied to the pooled person-years of both groups.",
   'None by us; the BCAC odds ratios are adjusted for country/strata.',
@@ -96,12 +96,12 @@ ROWS = [('Figures', '1A, 1B, 1E', '1C, 1E', '1D, 1E', '2, 3 (3J, K: inherited fi
   'Number summed over sexes. Profile: both-sex rate × class width.',
   'Median age at death at the common age structure, linear interpolation within age bands: never smokers '
   '67.5 y, current smokers 67.6 y; difference +0.1 y (95% CI −1.2 to +1.3; parametric Poisson bootstrap). '
-  'Deaths as observed in the cohort (not standardised): 68.5 vs 64.9 y.',
+  'Deaths as observed in the cohort (not standardized): 68.5 vs 64.9 y.',
   'Median of carrier cases only, linear interpolation within the age group containing the median (40–49 y '
   'for both genes), uniform within group: BRCA1 44.5 y (95% CI 43.5–45.5), BRCA2 49.4 y (48.4–50.6); '
   'multinomial bootstrap. Unchanged (<0.1 y) for open-group bounds of 15–25 y and 80–100 y. No non-carrier '
   'median (not published by BCAC).',
-  'MEDA: median simulated detection age among runs with a tumour before T, median(τ | τ ≤ T), a conditional '
+  'MEDA: median simulated detection age among runs with a tumor before T, median(τ | τ ≤ T), a conditional '
   'median; bootstrap 95% CI (2,000 resamples of runs).'),
  ('Statistical test',
   'Linear regression on UV (n = 49), 95% slope CI and Spearman. Incidence: R² = 0.209, p = 0.00096. Median '
@@ -119,7 +119,7 @@ ROWS = [('Figures', '1A, 1B, 1E', '1C, 1E', '1D, 1E', '2, 3 (3J, K: inherited fi
   '10-year age band (change per decade).'),
  ('Change in relative risk per decade of age',
   '1.04 (descriptive): weighted fit of the high- vs low-UV incidence rate ratios by age, which rise from '
-  '1.07 at 30–34 y to 1.36 at ≥95 y; modelled GBD values, no CI.',
+  '1.07 at 30–34 y to 1.36 at ≥95 y; modeled GBD values, no CI.',
   '1.10 (95% CI 0.98–1.25): Poisson model with a smoking × age (continuous) term.',
   'BRCA1 0.54 (0.54–0.60); BRCA2 0.72 (0.66–0.74): BCAC case-only odds ratio per year raised to the 10th '
   'power.',
@@ -139,4 +139,4 @@ ROWS = [('Figures', '1A, 1B, 1E', '1C, 1E', '1D, 1E', '2, 3 (3J, K: inherited fi
   'Values transcribed from BCAC Tables S11–S12 (bcac2021_tableS11_case_only.csv, '
   'bcac2021_tableS12_population_based.csv; fig1_revised_numbers.py).',
   'Per-run outputs (*_ancestralResults.csv); ph_benchmark.py, meda_decomposition.py, sim_age_trend_rr.py, '
-  'germline_analysis.py, germline_vs_input.py (code/ of this package).')]
+  'germline_analysis.py, germline_vs_input.py (code/ of the reproducibility package, https://github.com/labsinal/esiCancer_MEDA_reprodutibility).')]
