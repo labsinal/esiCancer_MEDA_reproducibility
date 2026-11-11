@@ -65,3 +65,7 @@ Simulations used the esiCancer Linux build (Minussi et al., 2019). The increasin
 - NMSC: Global Burden of Disease 2023 results, Institute for Health Metrics and Evaluation (GHDx results tool); cause "Non-melanoma skin cancer", incidence, number and rate by age and sex and age-standardised rate, 2023, 48 contiguous US states and DC (`data/epidemiology/nmsc/IHME_*.csv`). UV: National Cancer Institute, county ultraviolet exposure (`uv-county.xlsx`), unweighted mean of county values per state.
 - Lung cancer: Halpern MT, Gillespie BW, Warner KE. J Natl Cancer Inst 1993;85:457–64, Table 4 (deaths and person-years by age band, current and never smokers), checked against the printed table.
 - BRCA: Breast Cancer Association Consortium. N Engl J Med 2021;384:428–39, Supplementary Appendix Table S12 (population-based studies: carrier cases and odds ratios by age group) and Table S11 (case-only odds ratio per year of age).
+
+## License
+
+Code: MIT License (see `LICENSE`). Simulation outputs and tables: CC BY 4.0. Third-party epidemiological data in `data/epidemiology/` remain under the terms of their sources (IHME GBD terms of use; NCI; Halpern et al., 1993; Breast Cancer Association Consortium, 2021).
